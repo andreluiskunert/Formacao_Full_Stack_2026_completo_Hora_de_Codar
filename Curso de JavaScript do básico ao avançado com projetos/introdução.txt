@@ -1,0 +1,51 @@
+Descrição
+
+Seja bem-vindo ao curso completo de JavaScript da Hora de Codar!
+
+
+Neste curso você aprenderá todos os conteúdos da linguagem, sem precisar de conhecimento prévio nela. Iremos do básico ao avançado, com uma mescla de teoria e prática, para você internalizar todo o conhecimento aqui ensinado.
+
+
+Você terá acesso a diversos projetos ao longo do curso, fazendo com que tenha contato com a forma que projetos que contém JavaScript são desenvolvidos nas empresas, preparando você para o mercado de trabalho.
+
+
+Alguns dos assuntos abordados são:
+
+
+    Tipos de dados e operadores;
+    Estruturas de programação;
+    Funções em JavaScript;
+    Arrays e objetos;
+
+
+Estes tópicos são o fundamento, a base para você conseguir compreender recursos mais avançados de JS, que também são abordados aqui, como:
+
+
+    Orientação a objetos com JavaScript;
+    Depuração de erros (debug);
+    Programação assíncrona;
+    DOM (Document Object Model);
+
+
+Agora temos ferramentas para desenvolver projetos completos com JavaScript, HTML e CSS. Que é o que começaremos a fazer a partir deste ponto, enquanto também aprendemos mais recursos avançados.
+
+
+Note que são muitos conteúdos e de diferentes níveis de dificuldade, mas não se preocupe, você terá acesso a uma equipe especializada de suporte, para tirar todas as suas dúvidas.
+
+
+Além disso, você tem acesso vitalício ao curso e também certificado de conclusão, para incluir esta experiência no seu currículo. A Hora de Codar é uma instituição conhecida na área de TI/programação, conta com mais de 120 mil alunos, o que somará muito ao seu currículo.
+
+
+Está pronto para aprender JavaScript? Então te vejo no curso!
+
+
+O que é JavaScript?
+
+
+JavaScript é uma linguagem de programação interpretada, leve e de alto nível, conhecida por sua capacidade de adicionar interatividade e dinamismo a páginas web.
+
+
+Originalmente desenvolvida para executar no navegador, permitindo aos desenvolvedores criar conteúdo atualizado dinamicamente, manipular elementos do documento, validar formulários, e muito mais! JavaScript agora também é amplamente usada no desenvolvimento de servidores, aplicativos móveis, jogos e software de desktop, graças a ambientes como Node.js.
+
+
+Sendo uma das tecnologias fundamentais da web, junto com HTML e CSS, JavaScript é essencial para o desenvolvimento web moderno, oferecendo uma experiência rica e interativa para os usuários.
