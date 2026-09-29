@@ -23,5 +23,18 @@ console.log(`Mais um texto`)
 console.log(`753`)
 console.log(typeof "um texto")
 console.log( typeof `Mais um texto`)
-// 05_simbolos especias 
-// console.log("Testando a \n sendo testado")
+console.log("---------")
+// 05_simbolos especias
+console.log(" 05_simbolos especias")
+console.log("Testando a \n quebra de linha ")
+console.log("Espaçamento \t de tab")
+ console.log("---------")
+// 06_Concatenação
+console.log(" 06_Concatenação")
+console.log("Oi," + "tudo" + " bem ?")
+console.log(`Testando` + `  como `+ `crase!!`);
+ console.log("---------")
+// 07_Interpolação(Template Strings)
+console.log(" 07_Interpolação(Template Strings)")
+console.log(`A soma de 2 + 2 é: ${2 + 2 } `)
+console.log(`POdemos executar qualquer coisa aqui ${console.log("Teste")}`)
