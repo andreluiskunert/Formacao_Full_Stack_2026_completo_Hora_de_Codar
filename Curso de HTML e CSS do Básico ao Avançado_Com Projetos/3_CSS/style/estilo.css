@@ -30,3 +30,20 @@ p{
     color: blue;
     background-color: aqua;
 }
+/* Ordem das regras_Terça-feira_D'noite,29/09/2026 */
+h3{
+    border-bottom: 2px solid red;
+}
+.titulo{
+    border-bottom: 3px solid blue;
+}
+#algum_titulo{
+    border-bottom: 4px solid green;
+}
+/* nome de cores  */
+.color-name{
+    color: rgb(212, 83, 109);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 150;
+    font-size:  45px;
+}
