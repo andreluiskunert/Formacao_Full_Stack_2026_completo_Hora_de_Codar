@@ -47,3 +47,25 @@ h3{
     font-weight: 150;
     font-size:  45px;
 }
+/* Hex */
+.hex{
+    color: #55a398;
+}
+.hex-2{
+    color: #2e1ccf;
+
+}
+/* Aprofundando com hex */
+.simple-hex{
+  color: #333;
+}
+.simple-hex-2{
+  color: #a5f;
+}
+/* RGB */
+.rgb{
+  color: rgb(255, 0, 0);  
+}
+.mixed-rgb{
+    color: rgb(199,  21, 47);
+}
