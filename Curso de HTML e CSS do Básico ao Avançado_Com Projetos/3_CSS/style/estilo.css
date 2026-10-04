@@ -25,6 +25,14 @@ p{
 
 
 }
+.h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    background-color: #333;
+    color: aqua;
+    padding: 15px solid aqua;
+}
 #exclusive-title{
     font-family: 'Courier New', Courier, monospace;
     color: blue;
@@ -79,4 +87,24 @@ h3{
 }
 .hsl_1{
  color: hsl(100, 20%, 50%);
+}
+/* background */
+.bg{
+    background-color: #55a398;
+    color: #2e1ccf;
+}
+.bg-2{
+    background-color: #2e1ccf;
+    color: #55a398;
+}
+/* background opacity */
+.bg-opacity{
+    background-color: green;
+    opacity: 0.2;
+    color: #000;
+}
+.bg-opacity_2{
+    background-color: #999;
+    opacity: 1.8;
+    color: #000;
 }
