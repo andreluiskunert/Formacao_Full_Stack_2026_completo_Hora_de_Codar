@@ -108,3 +108,15 @@ h3{
     opacity: 1.8;
     color: #000;
 }
+ /* <!-- Segunda-feira_D'Noite,05/10/2026 -->
+  <!-- rgba com opacidade --> */
+  .rgba-opacity{
+    background-color: rgba(90, 120, 20, 0.2);
+    color: #000;
+  }
+  /* bg-image */
+  .bg-image{
+    background-image: url("../imgs/index.png");
+    padding: 10px;
+    color: azure;
+  }
