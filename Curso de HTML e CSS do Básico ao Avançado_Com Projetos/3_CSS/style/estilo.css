@@ -120,3 +120,13 @@ h3{
     padding: 10px;
     color: azure;
   }
+  /* Centralizando bg image */
+  .not-centered-bg,
+  .centered-bg{
+    height: 400px;
+    height: 800px;
+    background-image: url("../imgs/index2.png");
+  }
+  .centered-bg{ 
+    background-position: center;
+  }
