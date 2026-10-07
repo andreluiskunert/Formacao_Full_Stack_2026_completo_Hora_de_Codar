@@ -24,5 +24,10 @@ console.log(nomeCompleto1)
 let _teste = "OK"
 let $teste = "ok"
 console.log(_teste, $teste)
-
+// // 3 - prompt
+// const age = prompt("Informe sua idade:")
+// console.log(` Você tem ${age} anos`)
+// 4 alert
+alert("Erro no sistema")
+alert("É Numero 10")
 
