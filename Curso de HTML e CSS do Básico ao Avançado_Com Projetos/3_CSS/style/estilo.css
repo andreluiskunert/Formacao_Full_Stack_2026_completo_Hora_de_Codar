@@ -130,3 +130,29 @@ h3{
   .centered-bg{ 
     background-position: center;
   }
+  /* <!-- Terça-feira_D'noite, 06/10 -->
+ <!-- 22ª Largura e Altura --> */
+ .height-width{
+    height: 200px;
+    width: 200px;
+    background-color: #2e1ccf;
+    color: aquamarine;
+ }
+  .height-width_2{
+    padding-right: 10px;
+    height: 180px;
+    width: 1000%;
+    background-color: #3ee60b;
+    color: rgb(23, 24, 24);
+ }
+ /* <!-- 23ª padding --> */
+ 
+ .without-padding,
+ .padding {
+    background-color: #111;
+    color: aliceblue;
+ } 
+ .padding{
+    background-color: #333;
+    padding: 20px;
+ } 
