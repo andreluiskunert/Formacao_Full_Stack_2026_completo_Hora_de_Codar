@@ -28,6 +28,14 @@ console.log(_teste, $teste)
 // const age = prompt("Informe sua idade:")
 // console.log(` Você tem ${age} anos`)
 // 4 alert
-alert("Erro no sistema")
-alert("É Numero 10")
-
+// alert("Erro no sistema")
+// alert("É Numero 10")
+// Quarta-feira_D'Noite,07/10/2026
+// 5_Math
+console.log(Math.max(5, 3, 1, 2, 7, 4, 6))
+console.log(Math.floor(5.14))
+console.log(Math.ceil(5.15))
+// 6_console
+console.log("Teste;;;?")
+console.error("I am sorry my Friend ")
+console.warn("AVISO")
