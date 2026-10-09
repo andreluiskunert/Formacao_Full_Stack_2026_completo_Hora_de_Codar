@@ -39,3 +39,4 @@ console.log(Math.ceil(5.15))
 console.log("Teste;;;?")
 console.error("I am sorry my Friend ")
 console.warn("AVISO")
+// Padding com width

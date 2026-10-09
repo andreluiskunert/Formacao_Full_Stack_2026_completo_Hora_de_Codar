@@ -177,3 +177,25 @@ h3{
      padding: 10px 20px;
      color: aliceblue;
    }
+.without-border-box{
+    background-color: #4444;
+    color:#2e1ccf;
+    width: 400px;
+    padding: 50px;
+
+}
+.border-box{
+    background-color: #999;
+    color:  #000;
+    width: 800px;
+    padding: 100PX;
+    box-sizing: border-box;
+}
+/* Boder */
+.border {
+    border: 5px solid rgb(98, 0, 255);
+}
+.border_2{
+    border: 2px dotted #931;
+    padding: 25px;
+}
