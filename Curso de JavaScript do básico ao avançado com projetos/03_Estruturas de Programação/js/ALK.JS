@@ -40,3 +40,32 @@ console.log("Teste;;;?")
 console.error("I am sorry my Friend ")
 console.warn("AVISO")
 // Padding com width
+//  7_If
+const m = 10;
+if(m > 5){
+ console.log("M é Maior que 5")
+}
+const user = "André Luis"
+if (user === "André Luis") {
+    console.log(`Ola ${user}`)
+}
+if (user === "Maria") {
+    console.log("Olá Maria")
+    
+}
+console.log(user === "André Luis", user === "Maria")
+// 8_else
+const loggedIn = false
+if(loggedIn){
+    console.log("Está autenticado...")
+} else{
+     console.log("Não está autenticado...")
+}
+// 
+const q = 10;
+const w = 15;
+if(q > 5 && w > 20){
+  console.log("Números mais altos")
+} else{
+    console.log("Os numeros não mais altos ")
+}
