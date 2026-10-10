@@ -69,3 +69,4 @@ if(q > 5 && w > 20){
 } else{
     console.log("Os numeros não mais altos ")
 }
+//
