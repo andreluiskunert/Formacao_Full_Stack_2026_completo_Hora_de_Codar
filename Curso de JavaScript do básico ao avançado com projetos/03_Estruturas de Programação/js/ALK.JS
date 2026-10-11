@@ -69,4 +69,22 @@ if(q > 5 && w > 20){
 } else{
     console.log("Os numeros não mais altos ")
 }
-//
+//9_Else if
+ if(1 > 2){
+    console.log("Testando...1ª")
+
+ } else if(2 >  3) {
+    console.log(" Testando Else If 2ª ")
+ } else if( 3 > 4){
+    console.log("Testando Else If 3ª")
+ }
+ const userName = "André Luis";
+ const userAge = 44;
+ if (userName === "Matheus") {
+    console.log("Seja bem vindo Matheus")
+ } else if(userName === "André Luis" && userAge === 44){
+    console.log("Olá André Luis, você tem 44 anos...")
+ } else{
+    console.log("Nenhuma condição Aceita!!!")
+ }
+ 
