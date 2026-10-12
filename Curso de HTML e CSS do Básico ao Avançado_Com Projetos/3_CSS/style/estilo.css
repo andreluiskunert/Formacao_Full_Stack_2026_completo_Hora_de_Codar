@@ -274,3 +274,34 @@ h3{
     width: 300px;
     border: 1px solid #ff000f;
   }
+  /* <!-- Segunda-feira_D'tarde,12/10/2026
+      § 34ª Text Decoration
+ --> */
+ .underline{
+    text-decoration: underline;
+ }
+ .line-trough {
+    text-decoration: line-through;
+ }
+ .remove-underline{
+    text-decoration: none;
+    color: #2e1ccf;
+    background-color: aqua;
+ }
+  /* <!-- 35ª Text Transform --> */
+  .upper{
+    text-transform: uppercase;
+    background-color: #2e1ccf;
+    color: aqua;
+  }
+  .lower{
+    text-transform: lowercase;
+    background-color: aqua;
+    color:#2e1ccf;
+  }
+  /* 36ª letter spacing  */
+  .spacing{
+    letter-spacing: 5px;
+    color: white;
+    background-color: #2e1ccf;
+  }
