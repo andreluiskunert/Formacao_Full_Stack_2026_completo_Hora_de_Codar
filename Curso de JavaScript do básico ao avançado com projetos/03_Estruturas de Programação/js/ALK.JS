@@ -87,4 +87,5 @@ if(q > 5 && w > 20){
  } else{
     console.log("Nenhuma condição Aceita!!!")
  }
- 
+//  Domingo_D'noite,11/10/2026
+//  Estrutura
