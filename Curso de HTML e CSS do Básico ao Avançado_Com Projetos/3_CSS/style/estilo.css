@@ -305,3 +305,71 @@ h3{
     color: white;
     background-color: #2e1ccf;
   }
+  /* Segunda-feira_D'noite, 12/10/2026
+      37ª fontes  */
+.serif {
+    /* font-family: serif; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blue;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.sans-serif{
+    /* font-family: sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #3ee60b;
+    color: green;
+}
+.monospace{
+    /* font-family: monospace; */
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ff000f;
+    color: #000;
+}
+.cursive{
+    font-family: cursive;
+    background-color: #399;
+    color: aqua;
+}
+.fantasy{
+    font-family: fantasy;
+    background-color: cornflowerblue;
+    color: chartreuse;
+}
+/* 38ª text style */
+.italic{
+    font-style: italic;
+    background-color: #3ee60b;
+    color: #000;
+    padding: 1.5rem;
+    text-align: center;
+}
+.oblique {
+    font-size: oblique;
+    background-color: cadetblue;
+    color: #222;
+    padding: 1.5rem;
+    text-align: center;
+}
+/* 39ª Font Weight  */
+.thin, .bold, .bolder{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+.thin{
+    font-weight: 100;
+    background-color: #3ee60b;
+    color: #000;
+    padding: 1.1rem;
+}
+.bold{
+    font-weight: 600;
+    background-color: #2e1ccf;
+    padding: 1.2rem;
+}
+.bolder{
+    font-weight: 900;
+    background-color: cadetblue;
+    color: aqua;
+    padding: 1.3rem;
+}
