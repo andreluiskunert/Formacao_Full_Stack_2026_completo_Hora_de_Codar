@@ -373,3 +373,30 @@ h3{
     color: aqua;
     padding: 1.3rem;
 }
+/* Terça-feira_D'noite, 13/10/2026 
+   40ª Font Size  */
+   .small{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+   }
+   .big{
+    font-size: 48px;
+    font-family: 'Courier New', Courier, monospace;
+   }
+   /* 41ª Display  */
+   .inline-box{
+    width: 50px;
+    height: 50px;
+    background-color: #4f8;
+    margin: 18px;
+    display: inline-block;
+   }
+   .block{
+    background-color:#0a0c79 ;
+    display: block;
+    color: white;
+    margin: 10px;
+   }
+   .invisible {
+    display: none;
+   }
