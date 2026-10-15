@@ -39,4 +39,51 @@ TestandoEscopo()
 console.log(`Y fora da função é : ${y}`)
 TestandoEscopo()
 console.log("----//-----////-------///----")
+// Quarta-feira_D'Noite,14/10/2026
+console.log("4ªEscopo Alinhado")
+let m = 20;
+function escopoAlinhado(){
+    let m = 20
+    if(true){
+        let m = 30
+        if(true) {
+            let m = 40
+            console.log(m)
+        }
+        console.log(m)
+    }
+       console.log(m)
+}
+escopoAlinhado()
+ console.log(m)
+console.log("----//-----////-------///----")
+console.log("5ª Arrow function")
+const testArrow = () =>{
+    console.log("Está é uma arrow function")
+}
+testArrow()
+// 
+const parOuImpar = (n) =>{
+    if (n % 2 === 0) {
+        console.log("par")
+        return
+    }
+    console.log("Impar")
+
+}
+parOuImpar(5)
+parOuImpar(10)
+
+console.log("----//-----////-------///----")
+console.log("6 Mais sobre arrow functions...")
+const raizQuadrada = (x) =>{
+    return x * x
+}
+console.log(raizQuadrada(4))
+// 
+const raizQuadrada2 = (y) => y * y
+console.log("A raiz Quadrada de Y:", raizQuadrada2(4))
+console.log("A raiz Quadrada de X:", raizQuadrada(8))
+const helloword = () => console.log("Hello word")
+helloword()
 console.log("The End")
