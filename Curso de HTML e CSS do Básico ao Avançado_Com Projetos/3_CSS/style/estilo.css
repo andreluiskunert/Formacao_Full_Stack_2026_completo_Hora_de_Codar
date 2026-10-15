@@ -400,3 +400,26 @@ h3{
    .invisible {
     display: none;
    }
+   /*  Quarta-feira_D'Noite, 14/10/2026   
+   Position static  */
+   .static{
+     position: static;
+     background-color: #2e1ccf;
+     color: rgb(197, 216, 216);
+     padding: 15px ;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 1.4rem;
+     text-align: center;
+    }
+/* relative  */
+.relative{
+    position: relative;
+    color: #fff;
+    background-color: #2e1ccf;
+    padding: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    /* top: 100px;
+    left: 40px; */
+}
