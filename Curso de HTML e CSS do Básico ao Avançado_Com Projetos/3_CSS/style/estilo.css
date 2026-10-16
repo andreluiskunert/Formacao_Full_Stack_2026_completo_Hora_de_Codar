@@ -423,3 +423,40 @@ h3{
     /* top: 100px;
     left: 40px; */
 }
+/*  Quinta-feira_D'Noite, 15/10/2026
+  45ª ABSOLUTE  */
+  .absolute {
+    position: absolute;
+    color: #fff;
+    background-color: #2e1ccf;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    top: 2px;
+    left: 2px;
+    height: 100px;
+    width: 100px;
+  }
+  /*  46ª Absolute & Relative  */
+ .relative-container{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 120px;
+ } 
+ .absolute-1, 
+ .absolute-2{
+    width: 50px;
+    height: 50px;
+    background-color: #422;
+    position: absolute;
+
+ }
+ .absolute-1{
+    top: 10px;
+    left: 10px;
+ }
+.absolute-2{
+    top: 10px;
+    right: 10px;
+}
