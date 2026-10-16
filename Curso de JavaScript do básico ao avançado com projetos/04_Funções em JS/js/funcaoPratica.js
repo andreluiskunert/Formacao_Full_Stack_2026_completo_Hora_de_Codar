@@ -86,4 +86,29 @@ console.log("A raiz Quadrada de Y:", raizQuadrada2(4))
 console.log("A raiz Quadrada de X:", raizQuadrada(8))
 const helloword = () => console.log("Hello word")
 helloword()
+// 
+console.log("----//-----////-------///----")
+console.log("7 Parâmetro Opcionais em Funções...")
+// Quinta-freira_D'noite, 15/10/2026
+const multiplication = function (m, n){
+  if (n === undefined) {
+    return m * 2;
+  } else{
+   return m * n;
+  }
+};
+console.log("Um numero só:" + multiplication(5))
+console.log("Com dois numeros:" + multiplication(2, 4))
+console.log("Outro Exmplo:")
+const greeting = (name) =>{
+    if(!name){
+        console.log("Olá!")
+        return
+    }
+    console.log(`Olá ${name}`)
+}
+greeting()
+greeting("Andre Luis")
+
+
 console.log("The End")
