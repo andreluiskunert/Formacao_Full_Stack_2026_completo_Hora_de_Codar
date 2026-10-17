@@ -110,5 +110,22 @@ const greeting = (name) =>{
 greeting()
 greeting("Andre Luis")
 
-
+console.log("----//-----////-------///----")
+// Sexta-feira_D'Noite,16/10/2026
+console.log("4ª Valor default")
+const customGreeting = (name, greet = "Olá") =>{
+return `${greet}, ${name}`
+}
+console.log(customGreeting("André Luis"))
+console.log(customGreeting("Josias ", "boa noite"))
+console.log("Outro exemplo...")
+const repeatText = (text, repeat = 2)=>{
+    for(let i = 0; i < repeat; i++){
+        console.log(text)
+    }
+}
+repeatText("1,2,3 Testando")
+repeatText("ai vai o 4ª", 5)
+console.log("----//-----////-------///----")
+// Sexta-feira_D'Noite,16/10/2026
 console.log("The End")
