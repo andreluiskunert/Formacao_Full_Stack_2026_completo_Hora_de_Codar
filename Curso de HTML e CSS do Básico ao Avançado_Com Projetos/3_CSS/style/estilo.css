@@ -460,3 +460,50 @@ h3{
     top: 10px;
     right: 10px;
 }
+/*  Sexta-feira_D'noite,16/10/2026
+     47ª Position Fixed   */
+    .fixed{
+    width:  100px;
+    height: 100px;
+    background-color: #851;
+    border: 1px solid blue;
+     position: fixed;
+     top: 50px;
+     right: 100px;
+    }
+    /* 48ªPosition Sticky  */
+    .sticky{
+    width:  100px;
+    height: 100px;
+    background-color: #994;
+    border: 1px solid  green;
+     position: sticky;
+     top: 10px;
+    }
+    /*  49ª z-index */
+    .absolute1,
+    .absolute2,
+    .absolute3 {
+        width: 50px;
+        height: 50px;
+        background-color: #422;
+        position: absolute;
+        
+    }
+    .absolute3{
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+    .absolute2{
+        top: 10px;
+        left: 10px;
+        background-color: #3ee60b;
+        z-index: 3;
+    }
+    .absolute1{
+        top: 40px;
+        left: 40px;
+        background-color: #453;
+        z-index: 2;
+    }
