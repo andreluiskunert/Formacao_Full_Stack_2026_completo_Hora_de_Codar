@@ -112,7 +112,7 @@ greeting("Andre Luis")
 
 console.log("----//-----////-------///----")
 // Sexta-feira_D'Noite,16/10/2026
-console.log("4ª Valor default")
+console.log("8ª Valor default")
 const customGreeting = (name, greet = "Olá") =>{
 return `${greet}, ${name}`
 }
@@ -127,5 +127,56 @@ const repeatText = (text, repeat = 2)=>{
 repeatText("1,2,3 Testando")
 repeatText("ai vai o 4ª", 5)
 console.log("----//-----////-------///----")
-// Sexta-feira_D'Noite,16/10/2026
+// Domingo_D'noite, 18/10/2026
+console.log("9ª Closure")
+function someFunction(){
+   let txt = "JS é Legal"
+   function display(){
+    console.log(txt)
+   }
+   display() 
+}
+someFunction()
+console.log("----//-----////-------///----")
+console.log("10ª Mais sobre Closure...")
+const multiplicationClosure = (n) =>{
+    return(m) =>{
+        return n * m
+    }
+}
+const c1 =  multiplicationClosure(5)
+console.log(c1)
+const c2 = multiplicationClosure(10)
+console.log(c2)
+console.log(c1(5))
+console.log(c2(10))
+console.log("----//-----////-------///----")
+console.log("11ª Recusion...")
+const untilTen = (n, m)=>{
+ if (n < 10) {
+     console.log("A função paro executar!!!")
+ } else{
+    const x  = n -m
+    console.log(x)
+    untilTen(x, m)
+ }
+}
+untilTen(100, 7)
+// infite recursion
+// function run(){
+//     console.log("Executando")
+//     run() loop infinito
+// }
+// run()
+function factorial(x){
+    if (x === 0) {
+        return 1
+    } else {
+        return x * factorial(x - 1)
+    }
+}
+const num = 7
+const result = factorial(num)
+console.log(`O fatorial do numero ${num} é ${result}`)
+console.log("---->//<----->////<------->///<---->---->//<----->////<------->///<---->")
 console.log("The End")
