@@ -7,6 +7,11 @@ marquee{
     color: aqua;
     font-size: 25px;
 }
+.header{
+    padding: 5px;
+    font-weight: 150;
+    background-color: aqua;
+}
 .corpo{
        font-family: Arial, Helvetica, sans-serif;
     width: 100%;
@@ -15,7 +20,12 @@ marquee{
     font-size: 15px;
     text-align: justify;
 }
+.imagem1{
+    padding-top: 20px;
+    
+}
 .rodape{
+    /* position: fixed; */
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     height: 35px;
