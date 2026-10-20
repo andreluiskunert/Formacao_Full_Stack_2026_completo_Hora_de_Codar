@@ -1,35 +1,146 @@
-marquee{
-    background-color: blue;
-    width: 100%;
-    height: 35px;
-    padding: 14px solid Aqua;
-    font-family: initial;
-    color: aqua;
-    font-size: 25px;
+/* Configurações gerais */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.header{
-    padding: 5px;
-    font-weight: 150;
-    background-color: aqua;
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    line-height: 1.7;
 }
-.corpo{
-       font-family: Arial, Helvetica, sans-serif;
+
+/* Cabeçalho */
+
+header {
+    background-color: #17365d;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Conteúdo principal */
+
+main {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Imagem à esquerda e texto à direita */
+
+.historia {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Imagem */
+
+.imagem {
+    flex: 1;
+}
+
+.imagem img {
     width: 100%;
-    height: 35px;
-    padding-right: 10px;
-    font-size: 15px;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+/* Texto ao lado da imagem */
+
+.texto {
+    flex: 1.5;
+}
+
+.texto h2 {
+    color: #17365d;
+    margin-bottom: 15px;
+}
+
+.texto p {
+    margin-bottom: 15px;
     text-align: justify;
 }
-.imagem1{
-    padding-top: 20px;
-    
+
+/* Curiosidades */
+
+.curiosidades {
+    margin-top: 40px;
 }
-.rodape{
-    /* position: fixed; */
-    font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
-    height: 35px;
-    padding-right: 10px;
-    font-size: 25px;
+
+.curiosidades h2 {
+    color: #17365d;
+    margin-bottom: 20px;
     text-align: center;
+}
+
+/* Tabela */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #17365d;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #edf3f9;
+}
+
+/* Rodapé */
+
+footer {
+    background-color: #17365d;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    margin-top: 40px;
+}
+
+/* Responsividade para celulares */
+
+@media (max-width: 768px) {
+
+    .historia {
+        flex-direction: column;
+    }
+
+    .imagem,
+    .texto {
+        width: 100%;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+
 }
