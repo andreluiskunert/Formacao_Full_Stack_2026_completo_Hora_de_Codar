@@ -11,6 +11,12 @@ html{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #ddd;
 }
+.img{
+    width:auto;
+    
+
+}
+
 .container {
     max-width: 1500px;
     background-color: #fff;
