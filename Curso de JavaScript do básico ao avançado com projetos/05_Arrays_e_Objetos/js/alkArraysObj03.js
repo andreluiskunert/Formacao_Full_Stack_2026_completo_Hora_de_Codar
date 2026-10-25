@@ -1,0 +1,26 @@
+console.log("Curso de JavaScript do básico ao avançado com projetos ")
+console.log("Arrays & Objetos_02ª") 
+// Quinta-feira_D'noite, 22/10/2026
+console.log("6ª shift e unshift")
+const letters = ["a", "b", "c", "d", "e"]
+console.log("Shift")
+const letter = letters.shift()
+console.log(letter)
+console.log(letters)
+console.log("Unshift")
+letters.unshift("g", "h", "f")
+console.log(letters)
+letters.unshift("w")
+console.log(letters)
+console.log("---//---//---")
+console.log("7ª indexOf e lastIndexOf")
+const myElements = ["Morango", "Maçã", "Abacate", "Pêra", "Abacate"]
+console.log(myElements.indexOf("Maçã"))
+console.log(myElements.indexOf("Abacate"))
+console.log(myElements[2])
+console.log(myElements[myElements.indexOf("Abacate")])
+console.log(myElements.lastIndexOf("Abacate"))
+console.log(myElements.indexOf("Mamão"))
+console.log(myElements.lastIndexOf("Mamão"))
+
+console.log("The End")
