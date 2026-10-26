@@ -24,3 +24,4 @@ console.log(myElements.indexOf("Mamão"))
 console.log(myElements.lastIndexOf("Mamão"))
 
 console.log("The End")
+console.log("===> Próxima pagina em JS===> ")
