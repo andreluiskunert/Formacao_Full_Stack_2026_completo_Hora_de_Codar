@@ -29,5 +29,18 @@ const posts = [
 posts.forEach((post) => {
     console.log(`Exbindo post: ${post.title}, da categoria: ${post.category}`)
 })
+console.log("---//---////------///----///-----")
+console.log("10ª Métodos de array:includes ")
+const brands = ["BMW", "VW", "FIAT"]
+console.log(brands.includes("FIAT"))
+console.log(brands.includes("KIA"))
+if (brands.includes("BMW")) {
+    console.log("Há carro da marca BNW")
+}
+console.log("---//---////------///----///-----")
+console.log("11ª Métodos de array:reverse ")
+const reverseTest = [1, 2, 3, 4, 5, 6, 7]
+reverseTest.reverse()
+console.log(reverseTest)
 console.log("The End")
 console.log("===> Próxima pagina em JS===> ")
