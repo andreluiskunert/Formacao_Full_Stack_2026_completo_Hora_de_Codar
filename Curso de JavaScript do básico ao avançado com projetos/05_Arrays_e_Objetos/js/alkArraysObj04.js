@@ -31,6 +31,7 @@ posts.forEach((post) => {
 })
 console.log("---//---////------///----///-----")
 console.log("10ª Métodos de array:includes ")
+console.log("10ª Métodos de array:includes ")
 const brands = ["BMW", "VW", "FIAT"]
 console.log(brands.includes("FIAT"))
 console.log(brands.includes("KIA"))
