@@ -74,6 +74,22 @@
                         <input type="text" name="lastname" >
                     </fieldset>
                 </div>
+                <!-- 11ª Datalist
+                   Terça-feira_D'noite,27/10/2026 
+                -->
+                   <div>
+                    <label for="flavor">Escolha sua função</label>
+                    <input type="text" list="flavors" name="flavor">
+                    <datalist id="flavors">
+                      <option value="Teste_de_software"></option>  
+                      <option value="Analise_de_requisito"> </option> 
+                      <option value="Programacao"> </option> 
+                      <option value="Arquitetura_de_sistema"></option> 
+                    </datalist>
+                   </div>
+                   <!-- 12ª Senha -->
+                    <label for="password"> Informe sua senha: </label>
+                    <input type="password" name="password">
          <!-- 5ª envio de form -->
           <input type="submit" value="Cadastrar">
      </form>
