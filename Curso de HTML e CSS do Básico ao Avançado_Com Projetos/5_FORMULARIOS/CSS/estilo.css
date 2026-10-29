@@ -12,7 +12,7 @@ marquee{
     background-color: #f4f7fa;
     color: #333;
     line-height: 1.7;
-    padding-bottom: 500px;
+    padding-bottom: auto;
 }
 div{
     margin-bottom: 10px;
@@ -29,4 +29,14 @@ div label{
     text-align: center;
     /* padding: 25px 15px; */
     /* margin-top: 4px; */
+}
+.finalizar{
+    padding: 0%;
+    display: inline-flex;
+    padding: 12px 2px;
+}
+.radio label, 
+.radio input,
+.radio span{
+    display:inline-block ;
 }
