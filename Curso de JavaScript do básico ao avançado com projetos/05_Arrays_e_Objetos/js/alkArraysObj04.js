@@ -43,5 +43,5 @@ console.log("11ª Métodos de array:reverse ")
 const reverseTest = [1, 2, 3, 4, 5, 6, 7]
 reverseTest.reverse()
 console.log(reverseTest)
-console.log("The End")
+
 console.log("===> Próxima pagina em JS===> ")

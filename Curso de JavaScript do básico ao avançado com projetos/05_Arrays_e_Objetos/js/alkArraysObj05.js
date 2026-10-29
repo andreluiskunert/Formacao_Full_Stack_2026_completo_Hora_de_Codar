@@ -15,5 +15,11 @@ console.log(testePadstart)
 console.log(newNumber)
 const testePadEnd = newNumber.padEnd(10, "0")
 console.log(testePadEnd)
+console.log("---//---////------///----///-----")
+console.log("14ª Métodos de String:split ")
+// Quarta-feira_D'noite,28/10/2026
+const frase = "Minha vida é como um barco no mar da existencia,aonde o vento lá irei eu_AndréLuis"
+const arrayDaFrase = frase.split(" ")
+console.log(arrayDaFrase)
 console.log("The End")
 console.log("===> Próxima pagina em JS===> ")
