@@ -11,5 +11,9 @@ console.log(fraseDenovo)
 const itensParaComprar = ["Mouse", "Teclado", "Monitor"]
 const fraseDeCompra = `Precisamos comprar: ${itensParaComprar.join(", ")}.`
 console.log(fraseDeCompra)
+console.log("15ª repeat")
+// Sexta-feira_D'noite 30/10/2026
+const palavra = "programa é necessário"
+console.log(palavra.repeat(5))
 console.log("The End")
 console.log("===> Próxima pagina em JS===> ")
