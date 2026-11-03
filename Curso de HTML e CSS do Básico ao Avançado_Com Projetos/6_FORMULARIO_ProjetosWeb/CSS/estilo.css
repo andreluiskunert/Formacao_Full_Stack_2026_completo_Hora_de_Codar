@@ -27,10 +27,13 @@ input{
     padding: 10px 0;
     
 }
-input[title="text"], input[title="number"], input[title="date"],input[title="file"] {
+input[title="text"], input[title="number"], input[title="date"],input[title="file"], 
+textarea {
      width: 400px ;
  }
-  
+textarea{
+    padding: 10px 5px;
+}
 
 .header1{
     font-family: Arial, Helvetica, sans-serif;
