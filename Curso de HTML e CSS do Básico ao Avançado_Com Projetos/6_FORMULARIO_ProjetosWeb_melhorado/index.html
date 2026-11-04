@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cadastre seu veículo no CarEasy e prepare seu anúncio.">
+    <title>CarEasy | Cadastro de veículos</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+</head>
+<body>
+    <div class="topbar">
+        <span>CAR EASY</span>
+        <span>Seu próximo negócio começa aqui</span>
+    </div>
+
+    <header class="site-header">
+        <a class="brand" href="#" aria-label="CarEasy - início">
+            <img src="IMGS/meulogo.png" alt="Logotipo ALK Tecno">
+        </a>
+        <div class="header-copy">
+            <span class="eyebrow">COMPRA • VENDA • CONFIANÇA</span>
+            <h1>Seu carro merece um bom anúncio.</h1>
+            <p>Preencha os dados abaixo e apresente seu veículo para novos compradores.</p>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <section class="intro">
+            <div>
+                <span class="section-tag">ANUNCIE SEU VEÍCULO</span>
+                <h2>Vamos começar?</h2>
+                <p>Conte um pouco sobre o seu carro. Os campos com <span class="required-field">*</span> são obrigatórios.</p>
+            </div>
+            <div class="step-badge"><span>01</span><small>Cadastro</small></div>
+        </section>
+
+        <form class="form-card" action="#" method="post" enctype="multipart/form-data">
+            <section class="form-section">
+                <div class="section-heading">
+                    <span class="section-number">1</span>
+                    <div>
+                        <h3>Informações do anúncio</h3>
+                        <p>Como seu veículo será apresentado?</p>
+                    </div>
+                </div>
+
+                <div class="form-grid">
+                    <div class="field field-full">
+                        <label for="title">Título do anúncio <span class="required-field">*</span></label>
+                        <input type="text" name="title" id="title" placeholder="Ex.: Honda Civic 2.0 automático 2018" minlength="1" maxlength="60" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="price">Preço (R$) <span class="required-field">*</span></label>
+                        <input type="number" name="price" id="price" placeholder="Ex.: 65000" min="0" step="0.01" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="purchase_date">Data de compra <span class="required-field">*</span></label>
+                        <input type="date" name="purchase_date" id="purchase_date" required>
+                    </div>
+
+                    <div class="field field-full">
+                        <label for="description">Descrição do veículo <span class="required-field">*</span></label>
+                        <textarea name="description" id="description" rows="5" placeholder="Descreva o estado de conservação, histórico, revisões e outros detalhes importantes." required></textarea>
+                        <small class="field-hint">Uma boa descrição ajuda o comprador a conhecer melhor o veículo.</small>
+                    </div>
+                </div>
+            </section>
+
+            <section class="form-section">
+                <div class="section-heading">
+                    <span class="section-number">2</span>
+                    <div>
+                        <h3>Características do veículo</h3>
+                        <p>Informe os dados para identificar o modelo.</p>
+                    </div>
+                </div>
+
+                <div class="form-grid">
+                    <div class="field">
+                        <label for="brand">Marca <span class="required-field">*</span></label>
+                        <input type="text" name="brand" id="brand" placeholder="Ex.: Chevrolet" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="model">Modelo <span class="required-field">*</span></label>
+                        <input type="text" name="model" id="model" placeholder="Ex.: Onix LT" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="mileage">Quilometragem (km) <span class="required-field">*</span></label>
+                        <input type="number" name="mileage" id="mileage" placeholder="Ex.: 45000" min="0" required>
+                    </div>
+
+                    <fieldset class="field">
+                        <legend>Tipo de câmbio <span class="required-field">*</span></legend>
+                        <div class="choice-group">
+                            <label class="choice"><input type="radio" name="gear" id="manual" value="manual" required><span>Manual</span></label>
+                            <label class="choice"><input type="radio" name="gear" id="auto" value="automatic"><span>Automático</span></label>
+                        </div>
+                    </fieldset>
+                </div>
+            </section>
+
+            <section class="form-section">
+                <div class="section-heading">
+                    <span class="section-number">3</span>
+                    <div>
+                        <h3>Opcionais</h3>
+                        <p>Marque os itens que fazem parte do veículo.</p>
+                    </div>
+                </div>
+
+                <div class="options-grid">
+                    <label class="check-option"><input type="checkbox" id="airbag" name="optional[]" value="airbag"><span>Airbag</span></label>
+                    <label class="check-option"><input type="checkbox" id="alarme" name="optional[]" value="alarme"><span>Alarme</span></label>
+                    <label class="check-option"><input type="checkbox" id="ac" name="optional[]" value="ac"><span>Ar-condicionado</span></label>
+                    <label class="check-option"><input type="checkbox" id="reverse_camera" name="optional[]" value="reverse_camera"><span>Câmera de ré</span></label>
+                    <label class="check-option"><input type="checkbox" id="smartphone" name="optional[]" value="smartphone"><span>Integração com celular</span></label>
+                    <label class="check-option"><input type="checkbox" id="leather_seat" name="optional[]" value="leather_seat"><span>Banco de couro</span></label>
+                    <label class="check-option"><input type="checkbox" id="lane_assist" name="optional[]" value="lane_assist"><span>Assistente de pista</span></label>
+                    <label class="check-option"><input type="checkbox" id="keyless" name="optional[]" value="keyless"><span>Partida sem chave</span></label>
+                </div>
+            </section>
+
+            <section class="form-section">
+                <div class="section-heading">
+                    <span class="section-number">4</span>
+                    <div>
+                        <h3>Fotos do veículo</h3>
+                        <p>Adicione imagens para valorizar seu anúncio.</p>
+                    </div>
+                </div>
+
+                <label class="upload-area" for="images">
+                    <span class="upload-icon">＋</span>
+                    <strong>Escolha as fotos do seu veículo</strong>
+                    <span>PNG ou JPG • Você pode selecionar mais de uma imagem</span>
+                    <input type="file" accept="image/png, image/jpeg" id="images" name="images[]" multiple required>
+                </label>
+            </section>
+
+            <div class="form-actions">
+                <p>Revise as informações antes de enviar.</p>
+                <button type="submit" class="btn-submit">Enviar anúncio <span aria-hidden="true">→</span></button>
+            </div>
+        </form>
+
+        <p class="github-note">Projeto desenvolvido para estudos de HTML5 e CSS3 ·
+            <a href="https://github.com/andreluiskunert" target="_blank" rel="noopener noreferrer">Visite meu GitHub</a>
+        </p>
+    </main>
+
+    <footer class="site-footer">
+        <img src="IMGS/meulogo.png" alt="" aria-hidden="true">
+        <p>© 2026 CarEasy · Projeto de André Luis Kunert</p>
+        <span>Técnico em Informática • Tecnologia & Desenvolvimento</span>
+    </footer>
+</body>
+</html>
