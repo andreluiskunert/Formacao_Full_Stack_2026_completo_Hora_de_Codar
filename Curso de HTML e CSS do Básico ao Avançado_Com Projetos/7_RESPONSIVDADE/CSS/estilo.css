@@ -18,6 +18,29 @@ h1{
         color: blue;
     }
 }
+/* 3 min-width */
+p{
+    background-color: red;
+    color: #000;
+}
+@media screen and (min-width: 800px){
+    p{
+    background-color: #789;
+    color: rgb(26, 8, 8);
+    }
+    
+}
+/*  4ª landscad */
+h3{
+    display: none;
+}
+@media screen and (orientation:landscape) /* and (max-width: 500px)  */
+{
+    h3 {
+        display: block;
+    }
+}
+
 .rodape{
   background-color: blue;
   color: aqua;
