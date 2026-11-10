@@ -9,7 +9,7 @@ console.log("------------Programação Orientação a Objetos-------------------
   console.log(animal.name)
   animal.latir()
 console.log("---//---//---//----//---//------//---//---//---//----//---//------//---")
-console.log("02ª Aprofundo em Métodos")
+console.log("2ª Aprofundo em Métodos")
 const pessoa = {
 name: "André Luis",
 // age: 44,
@@ -37,3 +37,4 @@ console.log(arr.length)
 console.log(Object.getPrototypeOf(arr))
 
 console.log("That’s all for today, folks.")
+console.log("===>Próxima páginas ======>")

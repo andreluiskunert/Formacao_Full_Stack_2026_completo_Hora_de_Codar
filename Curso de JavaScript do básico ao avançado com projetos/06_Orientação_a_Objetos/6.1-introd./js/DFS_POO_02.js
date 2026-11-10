@@ -26,3 +26,4 @@ const kanicorso = Object.create(cachorro)
 kanicorso.raca = "Kanicorso"
 console.log(kanicorso)
 console.log("That’s all for today, folks.")
+console.log("===>Próxima páginas ======>")
