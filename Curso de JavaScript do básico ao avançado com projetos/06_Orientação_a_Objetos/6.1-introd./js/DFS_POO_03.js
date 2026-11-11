@@ -20,5 +20,11 @@ console.log("------------Programação Orientação a Objetos-------------------
  }
  const husky = new Cachorro("Ozzy", "Husky")
  console.log(husky)
+  console.log("---//----//---//---")
+ console.log("8ª Metodos na função construtora")
+ Cachorro.prototype.uivar = function(){
+  console.log("Auuu")
+ }
+ husky.uivar();
 console.log("That’s all for today, folks.")
 console.log("===>Próxima páginas ======>")
