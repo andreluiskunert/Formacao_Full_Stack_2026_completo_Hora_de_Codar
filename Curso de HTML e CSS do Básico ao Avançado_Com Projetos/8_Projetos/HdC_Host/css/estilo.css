@@ -116,3 +116,25 @@ Terça-feira_D'Noite,10/11/2026
 .services-container p {
     line-height: 24px;
 }
+/* 
+Quinta-feira_d'noite,12/11/2026 
+  prices and plans
+
+*/
+.pricing-container{
+    padding-bottom: 5px;
+    text-align: center;
+}
+.pricing-container h2{
+    font-size: 36px;
+}
+.pricing-container p {
+    font-size: 20px;
+}
+.pricing-container{
+    display: flex;
+}
+.plans-container{
+    display: flex;
+    justify-content: space-between;
+}
