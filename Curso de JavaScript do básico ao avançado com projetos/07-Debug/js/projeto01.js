@@ -17,7 +17,16 @@ for(let i = 0; i < b;i++){
     a = a + 2 
     console.log(a)
 }
-
-
-
+console.log("--//---///----///----///------")
+// Quinta-feira_D'noite
+console.log("2ªdebugger")
+let c = 3;
+let d = 5;
+if(c == 3){
+    c = d + 7
+}
+debugger;
+for(let i = 0; i < d; i++ ){
+    c = c + 2 
+}
 console.log("The End")
