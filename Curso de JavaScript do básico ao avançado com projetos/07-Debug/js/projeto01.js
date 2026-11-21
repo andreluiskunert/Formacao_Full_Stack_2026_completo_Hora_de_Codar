@@ -25,8 +25,30 @@ let d = 5;
 if(c == 3){
     c = d + 7
 }
-debugger;
+// debugger;
 for(let i = 0; i < d; i++ ){
     c = c + 2 
+}
+console.log("----///-----////------")
+console.log("4ª Tratamento de Dados ")
+ function checkNumber(n){
+   const  result = Number(n)
+   if(Number.isNaN(result)){
+     console.log("Valor Incorreto");
+     return;
+
+   }
+   console.log("Valor Correto..");
+   return result;
+ }
+ checkNumber(5);
+ checkNumber("11");
+ checkNumber({});
+ checkNumber("teste");
+console.log("----///-----////------")
+console.log("5ª exceptions ")
+let x = 10
+if(x != 11) {
+    throw new Error("O valor de X não pode ser diferente de 11!")
 }
 console.log("The End")
