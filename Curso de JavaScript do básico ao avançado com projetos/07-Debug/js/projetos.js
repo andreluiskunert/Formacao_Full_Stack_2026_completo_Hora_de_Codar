@@ -49,6 +49,35 @@ console.log("----///-----////------")
 console.log("5ª exceptions ")
 let x = 10
 if(x != 11) {
-    throw new Error("O valor de X não pode ser diferente de 11!")
+    // throw new Error("O valor de X não pode ser diferente de 11!")
+}
+console.log("----///-----////------")
+console.log("5ª Try Catch ")
+// Sabádo_D'noite, 21/11/2026
+try{
+  const soma = x + y
+}catch{
+    console.log(`Erro no programa: ${Error}`)
+}
+console.log("----///-----////------")
+console.log("6ª Finally ")
+ try{
+    const value = checkNumber("fgd")
+    if(!value){
+        throw new Error("Valores inválidos")
+    }
+ } catch(error){
+    console.log(`Opa, aconteceu um problema:${error}`)
+ } finally{
+    console.log("O código foi executado...")
+ }
+ console.log("----///-----////------")
+console.log("7ª Assertion ")
+function checkArray(arr){
+    if (arr.length === 0) {
+        throw new Error("O array precisa ter elementos");
+    } else{
+        console.log(`O array tem ${arr.length} elementos`)
+    }
 }
 console.log("The End")
