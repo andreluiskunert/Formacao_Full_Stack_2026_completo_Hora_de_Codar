@@ -1,0 +1,82 @@
+/* Segunda-feira_D'noite, 23/11/2026 */
+body{
+    padding-bottom: 500px;
+    
+}
+/* 1 flex */
+.flex{
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #ddd;
+}
+/* 2 flex column */
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    background-color: #CCC;
+}
+/* 3 Wrap */
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.box{
+    height: 40px;
+    width: 33%;
+    border: 1px solid red;
+}
+ /* 4ª Justify content
+        terça-feira_D'Noite,24/11/2026  */
+.center,
+.space-around,
+.space-between,
+.end {
+    display: flex;
+    margin-bottom: 20px;
+   
+}
+.center .box,
+.space-around.box,
+.space-between .box {
+    width: 50px;
+}
+.center{
+     justify-content: center;
+}
+.space-around{
+    justify-content: space-around;
+}
+.space-between{
+    justify-content: space-between;
+}
+.end{
+    justify-content: end;
+}
+/* 5ª align items */
+.align-center,
+.flex-end,
+.stretch{
+    display: flex;
+    margin-bottom: 20px;
+    height: 200px;
+    border: 1px solid blue;
+   
+}
+.align-center .box,
+.flex-end .box,
+.stretch .box {
+    width: 50px;
+}
+.align-center{
+    align-items: center;
+}
+.flex-end{
+    align-items: end;
+}
+.stretch{
+    align-items: stretch;
+}
+.stretch .box {
+    height: auto;
+}
