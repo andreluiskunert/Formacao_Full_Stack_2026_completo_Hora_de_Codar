@@ -80,3 +80,38 @@ body{
 .stretch .box {
     height: auto;
 }
+/* Quarta-feira_D'noite,25/11/2026
+          6ª Gap  */
+ .gap{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid green;
+    gap: 10px;
+
+}
+.gap .box {
+    width: 32%;
+}
+/*  7ªOrder  */
+.order {
+    display: flex;
+}
+#one {
+    order: 1;
+}
+#two{
+    order: 2;
+}
+#three{
+    order: 3;
+}
+/*  8ªGrow  */
+.grow {
+    display: flex;
+}
+.grow .box {
+    flex: 1;
+}
+.grow .big{
+    flex: 2;
+}
