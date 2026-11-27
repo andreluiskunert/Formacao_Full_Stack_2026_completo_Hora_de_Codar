@@ -24,5 +24,30 @@ promessa
   })
   .then((value) => value - 1)
   .then((value) => console.log(`Agora é: ${value}`));
-
+console.log("--//-----///----")
+// Quinta-feira_D'noite,26/11/2026
+console.log("4ªfalha na Promise")
+Promise.resolve(4 * "alk")
+.then((n) =>{
+  if (Number.isNaN(n)) {
+     throw new Error("Valores invalidos ")
+  }
+})
+.catch((err) => console.log(`Um erro ocorreu:${err}`))
+console.log("--//-----///----")
+// Quinta-feira_D'noite,26/11/2026
+console.log("5ªRejeição de  Promise")
+function checkNumber(n){
+  return new Promise((resolve, reject) =>{
+    if (n > 10) {
+      resolve(`O número é maior que 10`);
+    } else{
+      reject(new Error("Numero muito baixo"))
+    }
+  });
+}
+const a = checkNumber(20)
+const b = checkNumber(10)
+console.log(a, b)
+a.then((v) => console.log(`O resultado é ${v}`)).catch((err) => console.log(`Um erro ocorreu ${err}`))
 console.log("That’s all for today, folks.")
