@@ -50,4 +50,22 @@ const a = checkNumber(20)
 const b = checkNumber(10)
 console.log(a, b)
 a.then((v) => console.log(`O resultado é ${v}`)).catch((err) => console.log(`Um erro ocorreu ${err}`))
+console.log("--//-----///----")
+// Quinta-feira_D'noite,26/11/2026
+console.log("6ª Resolvendo vários  Promise")
+const p1 = new Promise((resolve, reject)=>{
+  setTimeout(function(){
+     resolve(10)
+  }, 1000)
+})
+const p2 = Promise.resolve(10+10)
+const p3 = new Promise((resolve, reject)=>{
+  if (30 > 10) {
+    resolve(30);
+  } else {
+    reject("error")
+  }
+});
+Promise.all([p1, p2, p3]).then((values) => console.log(values))
+console.log("--//-----///----")
 console.log("That’s all for today, folks.")
